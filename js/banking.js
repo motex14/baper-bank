@@ -71,6 +71,8 @@ balanceTotal.innerText=newBalanceTotal;
 
 
 // clear withdrawInput
+
+
 withdrawInput.value='';
 
 
