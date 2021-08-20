@@ -39,7 +39,7 @@ const withdrawInput =document.getElementById('withdraw-input');
 const withdrawAmountText=withdrawInput.value;
 
 const newwithdrawAmount =parseFloat(withdrawAmountText);
-console.log(newwithdrawAmount);
+// console.log(newwithdrawAmount);
 
 //set withdraw total
 
@@ -65,7 +65,7 @@ const previousBalanceTotalText =balanceTotal.innerText;
 const previousBalanceTotal =parseFloat(previousBalanceTotalText);
 
 
-const newBalanceTotal =previousBalanceTotal-newwithdrawAmount;
+const newBalanceTotal=previousBalanceTotal-newwithdrawAmount;
 balanceTotal.innerText=newBalanceTotal;
 
 
